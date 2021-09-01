@@ -7,6 +7,11 @@ Bu bot söz oyunu botudur və AZƏRBAYCANDA ilk botdur! Telegramda vaxtınızı 
 ```
 go get -u github.com/play2pay/croco-az
 ```
+## Deploying your own
+
+### To Heroku
+
+[![Deploy to Heroku](https://www.herokucdn.com/deploy/button.svg)](https://heroku.com/deploy?template=https://github.com/EkimozSupport/Kelimemango)
 
 ## İşə salmaq
 1. .ENV Faylı redaktə et
