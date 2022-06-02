@@ -1,28 +1,26 @@
- {
-    "name": "Kelme Bot",
-    "description": "A simple mention all for telegram.",
-    "env": {
-        "TOKEN": {
-            "description": "Enter bot token."
-        },
-        "APP_ID": {
-            "description": "Get this value from my.telegram.org! Please do not steal."
-        },
-        "TOKEN": {
-            "description" : "Botun Tokeni"
-        },
-        "BOT_NAME": {
-            "description" : "Botun Namesi"
-        },
-        "MONGO_DB_URL": {
-            "description": "Mongo DB yaz"
-        },
-        "BOT_USERNAME": {
-            "description": "botun usernamesin yaz"
-        },
-        "API_HASH": {
-            "description": "Get this value from my.telegram.org! Please do not steal."
-        }
+
+{
+  "name": "Crocodile Game",
+  "description": "A Telegram word-based game bot.",
+  "keywords": ["telegram", "python"],
+  "repository": "https://github.com/01-Meyitzade-01/CrocodileGame",
+  "env": {
+    "BOT_TOKEN": {
+      "description": "A bot token from @BotFather.",
+      "required": true
     },
-    "buildpacks": [{"url": "heroku/python"}]
+   "SUDO_USERS": {
+      "description": "A Sudo Users.",
+      "required": true
+    },
+    "MONGO_URI": {
+      "description": "A MongoDB URI.",
+      "required": true
+    }
+  },
+  "buildpacks": [
+    {
+      "url": "heroku/python"
+    }
+  ]
 }
