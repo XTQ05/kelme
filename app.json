@@ -21,7 +21,7 @@
             "description": "botun usernamesin yaz"
         },
         "API_HASH": {
-            "description": "Get this value from my.telegram.org! Please do not steal.
+            "description": "Get this value from my.telegram.org! Please do not steal."
         }
     },
     "buildpacks": [{"url": "heroku/python"}]
