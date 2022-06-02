@@ -3,7 +3,7 @@
   "name": "Crocodile Game",
   "description": "A Telegram word-based game bot.",
   "keywords": ["telegram", "python"],
-  "repository": "https://github.com/01-Meyitzade-01/CrocodileGame",
+  "repository": "https://XTQ05/Kelme",
   "env": {
     "BOT_TOKEN": {
       "description": "A bot token from @BotFather.",
